@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 import datetime
 
-data_path = r'/Users/itaka/python/Data/Output/Total/total_summary.csv'
+data_path = './data/total_summary.csv'
 
 # Load your data
 df = pd.read_csv(data_path,
